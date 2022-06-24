@@ -1,0 +1,209 @@
+/* начало шапка */
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 84.9vw;
+    padding-left: 2.4vw;
+    margin-bottom: 11.56vw;
+}
+
+.left {
+    background-image: url("/media/header_left_back.svg");
+    background-size: 22.03vw 46.82vw;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 51.72vw;
+    width: 25.57vw;
+    position: relative;
+    margin-top: -8.13vw;
+}
+
+.left img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23.39vw;
+    height: 49.17vw;
+}
+
+.middle {
+    background-image: url("/media/header_middle_back.svg");
+    background-size: 29.01vw 17.29vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33.23vw;
+    width: 29.01vw;
+    position: relative;
+    text-align: center;
+}
+
+.middle img {
+    width: 26.56vw;
+    height: 33.23vw;
+}
+
+.right {
+    background-image: url("/media/header_right_back.svg");
+    background-size: 22.86vw 32.92vw;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 35.05vw;
+    width: 25.42vw;
+    position: relative;
+}
+
+.right img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24.17vw;
+    height: 33.23vw;
+}
+
+.head_cont {
+    display: flex;
+    justify-content: space-between;
+    width: 57.19vw;
+}
+
+.header p {
+    text-align: center;
+    font-size: 3.65vw;
+    font-weight: 300;
+}
+/* конец шапка */
+/* начало каталог */
+.catalog ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 83.33vw;
+    padding: 0;
+}
+.catalog img {
+    width: 100%;
+}
+.img {
+    height: 23.59vw;
+    width: 18.96vw;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.img_cont {
+    position: relative;
+    margin-bottom: 2.08vw;
+}
+.img_back {
+    position: absolute;
+}
+.catalog li {
+    list-style: none;
+    margin-bottom: 5.99vw;
+}
+.catalog li:nth-child(3n + 4),
+.catalog li:nth-child(1) {
+    height: 39.48vw;
+    width: 22.71vw;
+    margin-right: 8.44vw;
+}
+.catalog li:nth-child(3n + 4) .img_cont,
+.catalog li:nth-child(1) .img_cont {
+    height: 27.34vw;
+    width: 22.81vw;
+}
+.catalog li:nth-child(3n + 4) .img,
+.catalog li:nth-child(1) .img {
+    right: 0;
+}
+.catalog li:nth-child(3n + 4) .img_back,
+.catalog li:nth-child(1) .img_back {
+    height: 25.16vw;
+    width: 20.83vw;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    background-color: #2d553e;
+}
+.catalog li:nth-child(2n + 3),
+.catalog li:nth-child(2) {
+    height: 39.48vw;
+    margin-right: 8.44vw;
+    width: 20.83vw;
+}
+.catalog li:nth-child(2n + 3) .img,
+.catalog li:nth-child(2) .img {
+    right: 0.94vw;
+    left: 0.94vw;
+}
+.catalog li:nth-child(2n + 3) .img_cont,
+.catalog li:nth-child(2) .img_cont {
+    width: 20.83vw;
+    height: 27.34vw;
+}
+.catalog li:nth-child(2n + 3) .img_back,
+.catalog li:nth-child(2) .img_back {
+    height: 25.16vw;
+    width: 20.83vw;
+    z-index: 0;
+    top: 0;
+    margin: auto;
+    background-color: #2d553e;
+}
+.catalog li:nth-child(3n + 3) {
+    height: 39.48vw;
+    margin-right: 0;
+    width: 22.71vw;
+}
+.catalog li:nth-child(3n + 3) .img {
+    left: 0;
+}
+.catalog li:nth-child(3n + 3) .img_cont {
+    height: 27.34vw;
+    width: 22.81vw;
+}
+
+.catalog li:nth-child(3n + 3) .img_back {
+    height: 25.16vw;
+    width: 20.83vw;
+    z-index: 0;
+    right: 0;
+    background-color: #2d553e;
+}
+.catalog p {
+    height: 2.55vw;
+    font-size: 2.08vw;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    line-height: 1.3em;
+    font-weight: 300;
+    margin-bottom: 1.25vw;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.text{
+    position: relative;
+    height: 10.42vw;
+    
+}
+.text button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 5.16vw;
+    width: 11.30vw;
+    background-color: transparent;
+    border: none;
+    background-image: url("/media/allbuttonBack.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* конец каталог */

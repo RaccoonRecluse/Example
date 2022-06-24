@@ -1,0 +1,130 @@
+.shapka {
+    position: relative;
+    z-index: 1;
+}
+/* начало шапка */
+
+.header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 84.90vw;
+    padding-left: 2.40vw;
+
+}
+
+.left {
+    background-image: url("/media/header_left_back.svg");
+    background-size: 22.03vw 46.82vw;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    height: 51.72vw;
+    width: 25.57vw;
+    position: relative;
+    margin-top: -8.13vw;
+}
+
+.left img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 23.39vw;
+    height: 49.17vw;
+
+}
+
+.middle {
+    background-image: url("/media/header_middle_back.svg");
+    background-size: 29.01vw 17.29vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 33.23vw;
+    width: 29.01vw;
+    position: relative;
+    text-align: center;
+}
+
+.middle img {
+    width: 26.56vw;
+    height: 33.23vw;
+
+}
+
+.right {
+    background-image: url("/media/header_right_back.svg");
+    background-size: 22.86vw 32.92vw;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 35.05vw;
+    width: 25.42vw;
+    position: relative;
+}
+
+.right img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24.17vw;
+    height: 33.23vw;
+
+}
+
+.head_cont {
+    display: flex;
+    justify-content: space-between;
+    width: 57.19vw;
+}
+
+.header p {
+    text-align: center;
+    font-size: 1.25vw;
+    font-weight: 300;
+    margin: 1.98vw 0 3.28vw 0;
+}
+.header h1{
+    text-align: center;
+    font-size: 3.33vw;
+    font-weight: 300;
+}
+.header a{
+    color: black;
+}
+/* конец шапка */
+/* начало форма регистрации */
+.register{
+    height: 51.72vw;
+    width: 41.25vw;
+    background-image: url("/media/register_back.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7.29vw;
+    /* margin-top:10.42vw; */
+}
+.register form{
+    display: flex;
+    flex-direction: column;
+}
+.register input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.16vw solid #CCA76E ;
+    padding: 0.63vw 1.25vw;
+    width: 28.80vw;
+    font-size: 1.67vw;
+    margin-bottom: 3.67vw;
+}
+.register button{
+    margin: auto;
+    margin-top: 3.23vw;
+    background-color: #2D553E;
+    width: 24.91vw;
+    height: 4.65vw;
+    font-size: 1.67vw;
+    color: white;
+}
+/* конец форма регистрации */
